@@ -8,32 +8,24 @@ namespace CarEvents
         {
             Car c1 = new Car("SlugBug", 100, 10);
             //Registering an event to call back
-            c1.AboutToBlow += CarAboutToBlow;
+            c1.AboutToBlow += delegate {
+                Console.WriteLine("You are going too fast");
+            };
             //Event is a list => so you can add more than 1 method
-            c1.AboutToBlow += CarIsAlmostDoomed;
+            c1.AboutToBlow += delegate (string msg){
+                Console.WriteLine($"=> Critical message from car: {msg}");
+            };
+            int x=10;
             //Another event
-            c1.Exploded += CarExploded;
+            c1.Exploded += delegate(string msg) {//Annonymous method
+                Console.WriteLine(msg);
+                Console.WriteLine($"You can accss to outer variable: {x}");
+            };
             for (int i = 0; i < 6; i++)
             {
                 c1.Accerlerate(20);
             }
-            //Remove the method out of the list
-            c1.Exploded -= CarExploded;
-            //Accerlerate again and if it is exploded => nothing show.
-			for (int i = 0; i < 6; i++)
-			{
-				c1.Accerlerate(20);
-			}
 
-        }
-        public static void CarAboutToBlow(string msg){
-            Console.WriteLine(msg);
-        }
-        public static void CarIsAlmostDoomed(string msg){
-            Console.WriteLine($"=> Critical message from car: {msg}");
-        }
-        public static void CarExploded(string msg){
-            Console.WriteLine(msg);
         }
     }
 }
