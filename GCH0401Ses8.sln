@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ses8Delegate", "Ses8Delegate\Ses8Delegate.csproj", "{458218CC-E044-4F40-8F44-035E60F23DF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDelegate", "GenericDelegate\GenericDelegate.csproj", "{71DDF6EF-A3F7-408C-9DEB-5D3A10D0A56B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDelegate", "CarDelegate\CarDelegate.csproj", "{4D35C7A1-8EB9-463D-9B95-6512B0370E2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarEvents", "CarEvents\CarEvents.csproj", "{1D9D48AF-547D-4F1B-B517-B305F6B46054}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{458218CC-E044-4F40-8F44-035E60F23DF3}.Debug|x86.ActiveCfg = Debug|x86
+		{458218CC-E044-4F40-8F44-035E60F23DF3}.Debug|x86.Build.0 = Debug|x86
+		{458218CC-E044-4F40-8F44-035E60F23DF3}.Release|x86.ActiveCfg = Release|x86
+		{458218CC-E044-4F40-8F44-035E60F23DF3}.Release|x86.Build.0 = Release|x86
+		{71DDF6EF-A3F7-408C-9DEB-5D3A10D0A56B}.Debug|x86.ActiveCfg = Debug|x86
+		{71DDF6EF-A3F7-408C-9DEB-5D3A10D0A56B}.Debug|x86.Build.0 = Debug|x86
+		{71DDF6EF-A3F7-408C-9DEB-5D3A10D0A56B}.Release|x86.ActiveCfg = Release|x86
+		{71DDF6EF-A3F7-408C-9DEB-5D3A10D0A56B}.Release|x86.Build.0 = Release|x86
+		{4D35C7A1-8EB9-463D-9B95-6512B0370E2C}.Debug|x86.ActiveCfg = Debug|x86
+		{4D35C7A1-8EB9-463D-9B95-6512B0370E2C}.Debug|x86.Build.0 = Debug|x86
+		{4D35C7A1-8EB9-463D-9B95-6512B0370E2C}.Release|x86.ActiveCfg = Release|x86
+		{4D35C7A1-8EB9-463D-9B95-6512B0370E2C}.Release|x86.Build.0 = Release|x86
+		{1D9D48AF-547D-4F1B-B517-B305F6B46054}.Debug|x86.ActiveCfg = Debug|x86
+		{1D9D48AF-547D-4F1B-B517-B305F6B46054}.Debug|x86.Build.0 = Debug|x86
+		{1D9D48AF-547D-4F1B-B517-B305F6B46054}.Release|x86.ActiveCfg = Release|x86
+		{1D9D48AF-547D-4F1B-B517-B305F6B46054}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
