@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDelegate", "CarDelegate\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarEvents", "CarEvents\CarEvents.csproj", "{1D9D48AF-547D-4F1B-B517-B305F6B46054}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLambdaExpression", "SimpleLambdaExpression\SimpleLambdaExpression.csproj", "{32899EED-AB89-4B52-B5D0-2A7928C9FEB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -31,5 +33,9 @@ Global
 		{1D9D48AF-547D-4F1B-B517-B305F6B46054}.Debug|x86.Build.0 = Debug|x86
 		{1D9D48AF-547D-4F1B-B517-B305F6B46054}.Release|x86.ActiveCfg = Release|x86
 		{1D9D48AF-547D-4F1B-B517-B305F6B46054}.Release|x86.Build.0 = Release|x86
+		{32899EED-AB89-4B52-B5D0-2A7928C9FEB5}.Debug|x86.ActiveCfg = Debug|x86
+		{32899EED-AB89-4B52-B5D0-2A7928C9FEB5}.Debug|x86.Build.0 = Debug|x86
+		{32899EED-AB89-4B52-B5D0-2A7928C9FEB5}.Release|x86.ActiveCfg = Release|x86
+		{32899EED-AB89-4B52-B5D0-2A7928C9FEB5}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
