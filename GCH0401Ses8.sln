@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarEvents", "CarEvents\CarE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLambdaExpression", "SimpleLambdaExpression\SimpleLambdaExpression.csproj", "{32899EED-AB89-4B52-B5D0-2A7928C9FEB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMath", "SimpleMath\SimpleMath.csproj", "{3B443739-B52E-43E1-9255-55D578BA8D31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -37,5 +39,9 @@ Global
 		{32899EED-AB89-4B52-B5D0-2A7928C9FEB5}.Debug|x86.Build.0 = Debug|x86
 		{32899EED-AB89-4B52-B5D0-2A7928C9FEB5}.Release|x86.ActiveCfg = Release|x86
 		{32899EED-AB89-4B52-B5D0-2A7928C9FEB5}.Release|x86.Build.0 = Release|x86
+		{3B443739-B52E-43E1-9255-55D578BA8D31}.Debug|x86.ActiveCfg = Debug|x86
+		{3B443739-B52E-43E1-9255-55D578BA8D31}.Debug|x86.Build.0 = Debug|x86
+		{3B443739-B52E-43E1-9255-55D578BA8D31}.Release|x86.ActiveCfg = Release|x86
+		{3B443739-B52E-43E1-9255-55D578BA8D31}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
