@@ -43,7 +43,12 @@ namespace SimpleLambdaExpression
             //we have a list of integers
             List<int> list = new List<int>() { 2, 20, 1, 3, 5, 6 };
             //Generic collection provides you a delegate called Predica
-            List<int> evenNumbers = list.FindAll(i => i%2==0);
+            //Multiple statments
+            List<int> evenNumbers = list.FindAll(i => {
+                Console.WriteLine($"Checking on {i}");
+                bool result = i % 2 == 0;
+                return result;
+            });
             foreach (var item in evenNumbers)
             {
                 Console.Write($"{item}\t");
